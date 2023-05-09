@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "scheme": "Token.wallet",
+    "web": {
+      "bundler": "metro"
+    },
+    "name": "Token Wallet",
+    "slug": "token.wallet",
+    "ios": {
+      "config": {
+        "usesNonExemptEncryption": false
+      }
+    },
+    "plugins": [
+      [
+        "expo-barcode-scanner",
+        {
+          "cameraPermission": "Allow Token Wallet to access camera."
+        }
+      ]
+    ]
+  }
+}
